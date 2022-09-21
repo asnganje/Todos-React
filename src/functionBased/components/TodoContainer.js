@@ -9,6 +9,7 @@ import NotMatch from '../pages/NotMatch';
 import Navbar from './Navbar';
 
 const TodoContainer = () => {
+  /* eslint-disable */ 
   const [todos, setTodos] = useState(getInitialTodos());
 
   const handleChange = (id) => {

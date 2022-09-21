@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React, { useState, useEffect } from 'react';
 import styles from './TodoItem.module.css';
 
@@ -20,7 +21,7 @@ const TodoItem = (props) => {
     opacity: 0.4,
     textDecoration: 'line-through',
   };
-
+  /* eslint-disable */ 
   const { completed, id, title } = props.todo;
 
   const viewMode = {};

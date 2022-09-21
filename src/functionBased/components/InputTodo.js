@@ -14,6 +14,7 @@ const InputTodo = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    /* eslint-disable */ 
     if (inputText.title.trim()) {
       props.addTodoProps(inputText.title);
       setInputText({
